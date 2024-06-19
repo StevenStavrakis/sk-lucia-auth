@@ -1,5 +1,5 @@
-import { Database } from "bun:sqlite"
+// TODO: need to create a database client
 
-export const db = new Database("dev.db", {
-    readwrite: true
-})
+// Q: what are some configuration options we want to set?
+// Q: why might we want to set config options?
+// A:
